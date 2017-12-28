@@ -79,14 +79,16 @@ int main() {
     
     //f_set1
       if( get_key_press( 1<<KEY0 )){
-        set_timers(200,25);
+        set_timers(205,25);
     }
     
     //f_set2
     if( get_key_press( 1<<KEY1 )){
-      set_timers(190,25);
+      set_timers(204,25);
+
     }
   }
 }
+
 
 
